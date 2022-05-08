@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+#main {
+  width: 98%;
+  height: 100px;
+  margin: 30px 30p;
+
+  background-color: #e2e1ea;
+  border: 2px solid white;
+  opacity: 0.6;
+  display: flex;
+  align-items: flex-start;
+}
+
+/*white box border*/
+div.parent {
+  position: relative;
+  height: 200px;
+  /*up and down*/
+  bottom: -70%;
+  width: 95%;
+  margin: 30px;
+  background-color: #e2e1ea;
+  border: 2px solid white;
+  opacity: 0.6;
+  display: flex;
+  align-items: flex-start;
+}
+
+/*Text inside white box*/
+div.absolute {
+  margin: 30px 30p;
+  align-items: flex-start;
+  position: absolute;
+
+} 
+
+
+#main div {
+  flex: 1;
+  margin: 30px;
+  display: flex;
+  align-items: bottom;
+}
+
+#gametext {
+  margin: 50px;
+  font-family: myFirstFont;
+
+}
+
+body  {
+  background-color: #cccccc;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(agency_fb.woff);
+}
+
