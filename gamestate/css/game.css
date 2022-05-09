@@ -1,0 +1,48 @@
+body{
+background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 700px; /* Should be removed. Only for demonstration */
+  object-fit: cover;
+}
+
+
+.left {
+  width: 60%;
+  background-image: url('https://aceship.github.io/AN-EN-Tags/img/avg/backgrounds/bg_room_2.png');
+  background-size: 1229px 691px;
+
+}
+
+.right {
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+/* .row{
+  background-image: : url('room_1.png');
+
+} */
+
+.row:after {
+  color: red;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#red{
+  color: #af96df;
+  font-size: 200%;
+  font-family: "helvetica";
+}

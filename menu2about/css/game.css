@@ -1,0 +1,65 @@
+div1{
+background-image: url('../../images/menu_image.png');
+height:575px;
+width:1024px;
+}
+
+div_bg{
+ background:  black;
+ height: height;
+ width: width;
+}
+
+div {
+border: 0px solid black;
+padding-top: 80px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;
+}
+.button {
+border: black;
+border-style: outset;
+color: white;
+padding: 16px 16px;
+width: 300px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 24px 12px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.button1 {
+background-color:   #FFFFFF;
+color: black;
+border: 2px solid #CBCBCB;
+}
+
+.button1:hover {
+background-color: transparent;
+color: white;
+}
+
+.button2 {
+background-color: #FFFFFF;
+color: black;
+border: 2px solid #CBCBCB;
+}
+
+.button2:hover {
+background-color: transparent;
+color: white;
+}
+.button3 {
+background-color:   #FFFFFF;
+color: black;
+border: 2px solid #CBCBCB;
+}
+
+.button3:hover {
+background-color: transparent;
+color: white;
+}

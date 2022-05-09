@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-
-<!-- DEFAULT MENU 1-->
-<!-- CHECKPOINT 0 -->
-
 <html>
-<title>Main Menu 1</title>
+<title>Checkpoint 0</title>
 <head>
 
-<!-- Test Section-->
+<!-- DEFAULT GAME LAYOUT-->
+<!-- CHECKPOINT N/A -->
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,21 +27,15 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Buttons Element-->
+
+
 <style>
 
-  div1{
+div1{
   background-image: url('images/menu_image.png');
   height:575px;
   width:1024px;
 }
-
-  div_bg{
-   background:  black;
-   height: height;
-   width: width;
-  }
-
   div {
   border: 0px solid black;
   padding-top: 80px;
@@ -52,6 +43,16 @@
   padding-bottom: 50px;
   padding-left: 80px;
 }
+
+div2 {
+ border: 0px solid black;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  color: white;
+}
+
 .button {
   border: black;
   border-style: outset;
@@ -62,72 +63,54 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 24px 12px;
+  margin: 60px 12px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
-
 .button1 {
   background-color:   #FFFFFF;
   color: black;
   border: 2px solid #CBCBCB;
 }
-
 .button1:hover {
   background-color: transparent;
   color: white;
 }
 
-.button2 {
-  background-color: #FFFFFF;
-  color: black;
-  border: 2px solid #CBCBCB;
-}
 
-.button2:hover {
-  background-color: transparent;
-  color: white;
-}
-.button3 {
-  background-color:   #FFFFFF;
-  color: black;
-  border: 2px solid #CBCBCB;
-}
 
-.button3:hover {
-  background-color: transparent;
-  color: white;
-}
 
+}
 </style>
 </head>
 
 <!-- Coding Start -->
 
+<!-- Navigator-->
 <div class="header">
   <button class='btn btn-sm btn-primary goToTag' style='position:fixed;bottom:15px ;right: 0px;size:70px 70px;padding: 10px;z-index: 10000' id='to-tag' type='button'>^ </button>
     <nav id="nav-game" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" style="background-image: linear-gradient(#222222ff 70%,#222222ff , #111111aa );">
             <img src="images/logo.png" width="60" height="60" style="transform:scale(1.2,1.2)translate(10px,-4px)"class="d-inline-block align-top" alt="">
-            <a class="navbar-brand" href="menu.html" style="transform:scale(1.2,1.2)translate(40px,12px)" translate-id="topbar-1">Main Menu</a>
+            <a class="navbar-brand" href="menu1.html" style="transform:scale(1.2,1.2)translate(40px,12px)" translate-id="topbar-1">Main Menu</a>
             <a class="navbar-brand" href="checkpoint0.html" style="transform:scale(1.2,1.2)translate(40px,12px)" translate-id="topbar-1">Checkpoint(s)</a>
 </div>
 
 <!-- Buttons-->
 <center>
-<div1 class ="row">
-
-<div class="container p-5 my-5 boarder-xxl">
-
-<center>
   <body>
-  <p><button class="button button1" href="about.html">About</button></p>
-  <p><button class="button button2" href="page1.html">Play</button></p>
-  <p><button class="button button3" href="https://aliciaychi.github.io/duo-final/checkpoint0.html">Checkpoints</button></p>
+    <div1 class ="row">
+      <div class="container p-5 my-5 boarder-xxl">
+      </div>
+
+      <div2>
+        <h2>No Available Checkpoints</h2>
+        <p><button class="button button1" href="menu1.html">Click to return to Menu</button></p>
+      </div2>
+    </div1>
   </body>
 </center>
-
 </div>
 
-</div1>
-</center>
-</div>
+
+
+</html>

@@ -38,7 +38,7 @@ div.absolute {
   align-items: flex-start;
   position: absolute;
 
-} 
+}
 
 
 #main div {
@@ -62,4 +62,3 @@ body  {
   font-family: myFirstFont;
   src: url(agency_fb.woff);
 }
-
