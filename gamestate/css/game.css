@@ -1,48 +1,95 @@
-body{
-background-color: black;
+
+div {
+border: 0px solid black;
+padding-top: 80px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;
+}
+.button {
+border: black;
+border-style: outset;
+color: white;
+padding: 16px 16px;
+width: 300px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 24px 12px;
+transition-duration: 0.4s;
+cursor: pointer;
 }
 
-* {
-  box-sizing: border-box;
+.button1 {
+background-color:   #FFFFFF;
+color: black;
+border: 2px solid #CBCBCB;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 700px; /* Should be removed. Only for demonstration */
-  object-fit: cover;
+.button1:hover {
+background-color: transparent;
+color: white;
 }
 
-
-.left {
-  width: 60%;
-  background-image: url('https://aceship.github.io/AN-EN-Tags/img/avg/backgrounds/bg_room_2.png');
-  background-size: 1229px 691px;
-
+.button2 {
+background-color: #FFFFFF;
+color: black;
+border: 2px solid #CBCBCB;
 }
 
-.right {
-  width: 40%;
+.button2:hover {
+background-color: transparent;
+color: white;
+}
+.button3 {
+background-color:   #FFFFFF;
+color: black;
+border: 2px solid #CBCBCB;
 }
 
-/* Clear floats after the columns */
-/* .row{
-  background-image: : url('room_1.png');
-
-} */
-
-.row:after {
-  color: red;
-  content: "";
-  display: table;
-  clear: both;
+.button3:hover {
+background-color: transparent;
+color: white;
 }
 
-
-#red{
-  color: #af96df;
-  font-size: 200%;
-  font-family: "helvetica";
+div2 {
+ border: 0px solid black;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px; 
+  color: white;
 }
+
+.parent {
+ position: absolute;
+ right: 0px;
+ width: 1024px; 
+ height: 575px; 
+ top: 640px; 
+ left: 1050px;
+ font: larger monospace;
+}
+
+#child { 
+  position: absolute; 
+  right: 40px; 
+  top: 00px; 
+  width: 1024px; 
+  height: -575px; 
+  background-color: #fafafa; 
+  border: solid 3px #78e382; 
+  font-size: 80px; 
+  text-align: center; 
+} 
+
+.divbox{
+  background-color: black;
+  width: 1024px;
+  border: 3px solid white;
+  padding: 50px;
+  margin: 20px;
+  color: white;
+}
+
