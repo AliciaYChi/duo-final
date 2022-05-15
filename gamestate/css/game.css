@@ -21,6 +21,21 @@ transition-duration: 0.4s;
 cursor: pointer;
 }
 
+.buttonchoice {
+border: white;
+border-style: outset;
+color: white;
+padding: 12px 12px;
+width: 300px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 24px 12px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
 .button1 {
 background-color:   #FFFFFF;
 color: black;
