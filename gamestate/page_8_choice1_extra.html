@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+bg_black<!DOCTYPE html>
 
-<!-- Choice 1: Response- Yes Extras-->
+<!-- Game Line 1-->
 <!-- CHECKPOINT 0 -->
 
 <html>
@@ -32,9 +32,14 @@
 
 <!-- Buttons Element-->
 <style>
+.rectangle {
+  height: 250px;
+  width: 2000px;
+  background-color: #ffff;
 
+}
   divroom{
-  background-image: url('images/room_1.png');
+  background-image: url('images/bg_black.png');
   height:575px;
   width:1024px;
 }
@@ -53,12 +58,7 @@
   padding-left: 80px;
 }
 
-divbox {
-  width: 1024px;
-  border: 15px solid white;
-  padding: 50px;
-  margin: 20px;
-}
+
 
 /*
  * fixed table layout
@@ -71,40 +71,8 @@ table {
   border-color: #ffffff;
   color: #ffffff;
   background-color: #000000;
-}
 
-.button {
-  border: black;
-  border-style: outset;
-  color: white;
-  padding: 16px 16px;
-  width: 300px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 24px 12px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
 
-.button1 {
-  background-color:   #FFFFFF;
-  color: black;
-  border: 2px solid #CBCBCB;
-}
-
-.button1:hover {
-  background-color: transparent;
-  color: white;
-}
-
-.rectangle {
-  height: 250px;
-  width: 2000px;
-  background-color: #ffff;
-
-}
 </style>
 </head>
 
@@ -118,47 +86,48 @@ table {
             <a class="navbar-brand" href="checkpoint0.html" style="transform:scale(1.2,1.2)translate(40px,12px)" translate-id="topbar-1">Checkpoint(s)</a>
 </div>
 <center>
+
 <divroom class ="row"></divroom>
 </center>
 
-
 <center>
-  <img style="position: relative; top:-530px; right: 100px" src="images/hoa_sprite_sad.png"; height="800px"; width="600px">
 
   <div class="container p-5 my-5 boarder-xxl"></div>
 
-<table style="position: relative !important; top: -810px;" border="3">
+<table border="3">
     <tr>
-     <th style="padding-top:15px; padding-bottom: 5px;padding-left: 30px; padding-right: 30px; font-size: 25px;">Hoa</th>
+     <th style="padding-top:10px; padding-bottom: 5px;padding-left: 30px; padding-right: 30px; font-size: 25px;">N/A</th>
     </tr>
     <br>
 
       <tr>
-      <td style="padding-bottom: 5px;padding-left: 30px; padding-right: 30px;">
-          
-          <p>
+      <td style="padding-bottom: 5px;padding-left: 30px; padding-right: 30px; font-size: 15px">
+          <center>
             <br>
-            <br> "..."
             <br>
-            <br> “I’ll just call people back later today. I don't want to deal with it right now.”
+            <br><i>Hoa fell asleep</i>
             <br>
             <br>
             <br>
-            <br>
-            <br>
-          </p>
+             <br>
+          </center> 
 
-         <!-- <br><a style="position: absolute; top:15px; right:100px" href="page_5_choice2.html">Back</a> -->
-          
-        <br><a style="position: absolute; top:15px; right:50px" href="page_5_choice2_extra.html">Next</a> 
-      
+         <br><a style="position: relative; top:-152px; left:870px" href="page_8_choice1.html">Back</a>
         
+          <br><a style="position: relative; top:-170px; left:920px" href="page_8_choice1_extra.html">Next</a>
+
       </td>
       </tr>
   </tbody>
 </table>
- 
 </center>
-
-<center><div class="rectangle" style="color: red; position: absolute; top: 750px; right: 0px; "></div></center>
+<!--
+ <div class="parent">
+          <br><a style="position: absolute; top:-155px; left:-490px" href="index.html">Back</a>
+          <br><a style="position: absolute; top:-170px; left:-450px" href="page_2.html">Next</a>
+          </div>
+</center>
+-->
 </nav>
+<center><div class="rectangle" style="color: red; position: absolute; top: 750px; right: 0px; "></div></center>
+</html>
