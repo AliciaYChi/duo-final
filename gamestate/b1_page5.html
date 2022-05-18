@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
-<!-- DEFAULT MENU 1-->
+<!-- Choice 1: Response- Yes Extras-->
 <!-- CHECKPOINT 0 -->
 
 <html>
-<title>Main Menu 1</title>
+<title>Day 1</title>
 <head>
 
 <!-- Test Section-->
@@ -33,8 +33,8 @@
 <!-- Buttons Element-->
 <style>
 
-  div1{
-  background-image: url('images/menu_image.png');
+  divroom{
+  background-image: url('images/room_1.png');
   height:575px;
   width:1024px;
 }
@@ -52,6 +52,27 @@
   padding-bottom: 50px;
   padding-left: 80px;
 }
+
+divbox {
+  width: 1024px;
+  border: 15px solid white;
+  padding: 50px;
+  margin: 20px;
+}
+
+/*
+ * fixed table layout
+ */
+table {
+  margin-top: -283px;
+  table-layout: fixed;
+  width: 1025px;
+  font: larger monospace;
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: #000000;
+}
+
 .button {
   border: black;
   border-style: outset;
@@ -78,27 +99,12 @@
   color: white;
 }
 
-.button2 {
-  background-color: #FFFFFF;
-  color: black;
-  border: 2px solid #CBCBCB;
-}
+.rectangle {
+  height: 250px;
+  width: 2000px;
+  background-color: #ffff;
 
-.button2:hover {
-  background-color: transparent;
-  color: white;
 }
-.button3 {
-  background-color:   #FFFFFF;
-  color: black;
-  border: 2px solid #CBCBCB;
-}
-
-.button3:hover {
-  background-color: transparent;
-  color: white;
-}
-
 </style>
 </head>
 
@@ -107,30 +113,51 @@
 <div class="header">
   <button class='btn btn-sm btn-primary goToTag' style='position:fixed;bottom:15px ;right: 0px;size:70px 70px;padding: 10px;z-index: 10000' id='to-tag' type='button'>^ </button>
     <nav id="nav-game" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" style="background-image: linear-gradient(#222222ff 70%,#222222ff , #111111aa );">
-            <img src="images/logo.png" width="60" height="60" style="transform:scale(1.2,1.2)translate(10px,-4px)"class="d-inline-block align-top" alt="">
+            <img src="../images/logo.png" width="60" height="60" style="transform:scale(1.2,1.2)translate(10px,-4px)"class="d-inline-block align-top" alt="">
             <a class="navbar-brand" href="menu.html" style="transform:scale(1.2,1.2)translate(40px,12px)" translate-id="topbar-1">Main Menu</a>
             <a class="navbar-brand" href="checkpoint0.html" style="transform:scale(1.2,1.2)translate(40px,12px)" translate-id="topbar-1">Checkpoint(s)</a>
 </div>
-
-<!-- Buttons-->
 <center>
-<div1 class ="row">
-
-<div class="container p-5 my-5 boarder-xxl">
-
-<center>
-  <body>
-    <br>
-    <br>
-    <br>
-  <p><button class="button button1" onclick="window.location.href = '../about.html';">About</button></p>
-  <p><button class="button button2" onclick="window.location.href = '../gamestate/index.html';">Play</button></p>
-  <p><button class="button button3" onclick="window.location.href = 'checkpoint0.html';">Checkpoints</button></p>
-  </body>
+<divroom class ="row"></divroom>
 </center>
 
-</div>
 
-</div1>
+<center>
+  <img style="position: relative; top:-530px; right: 100px" src="images/hoa_sprite_sad.png"; height="800px"; width="600px">
+
+  <div class="container p-5 my-5 boarder-xxl"></div>
+
+<table style="position: relative !important; top: -810px;" border="3">
+    <tr>
+     <th style="padding-top:15px; padding-bottom: 5px;padding-left: 30px; padding-right: 30px; font-size: 25px;">Hoa</th>
+    </tr>
+    <br>
+
+      <tr>
+      <td style="padding-bottom: 5px;padding-left: 30px; padding-right: 30px;">
+          
+          <p>
+            <br><i>I shouldn't think these thoughts, nor should I dwell on them. They're not important and shouldn't exist...</i>
+            <br>
+            <br><i>Because I don't think father will approve.</i>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          </p>
+
+         <br><a style="position: absolute; top:15px; right:100px" href="b1_page4.html">Back</a> 
+          
+        <br><a style="position: absolute; top:15px; right:50px" href="end_1.html">Next</a> 
+      
+        
+      </td>
+      </tr>
+  </tbody>
+</table>
+ 
 </center>
-</div>
+
+<center><div class="rectangle" style="color: red; position: absolute; top: 750px; right: 0px; "></div></center>
+</nav>
