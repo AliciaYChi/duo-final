@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Checkpoint 0</title>
+<title>About Page</title>
 <head>
 
 <!-- DEFAULT GAME LAYOUT-->
@@ -9,7 +9,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.nets/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Test Section END-->
 
@@ -27,15 +27,20 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-
-
 <style>
-
 div1{
-  background-image: url('images/menu_image2.png');
+  background-image: url('images/bg_abyss_1.png');
   height:575px;
   width:1024px;
 } 
+
+div {
+  border: 0px solid black;
+  padding-top: 80px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
 
 </style>
 </head>
@@ -47,32 +52,26 @@ div1{
   <button class='btn btn-sm btn-primary goToTag' style='position:fixed;bottom:15px ;right: 0px;size:70px 70px;padding: 10px;z-index: 10000' id='to-tag' type='button'>^ </button>
     <nav id="nav-game" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" style="background-image: linear-gradient(#222222ff 70%,#222222ff , #111111aa );">
             <img src="images/logo.png" width="60" height="60" style="transform:scale(1.2,1.2)translate(10px,-4px)"class="d-inline-block align-top" alt="">
-            <a class="navbar-brand" href="../index.html" style="transform:scale(1.2,1.2)translate(40px,12px)" translate-id="topbar-1">Main Menu</a>
-            <a class="navbar-brand" href="../menu/checkpoint0.html" style="transform:scale(1.2,1.2)translate(40px,12px)" translate-id="topbar-1">Checkpoint(s)</a>
-            <a class="navbar-brand" href="../about.html" style="transform:scale(1.2,1.2)translate(40px,12px)" translate-id="topbar-1">About Page</a>
-            <a class="navbar-brand" href="../credits.html" style="transform:scale(1.2,1.2)translate(40px,12px)" translate-id="topbar-1">Credits Page</a>
+            <a class="navbar-brand" href="index.html" style="transform:scale(1.2,1.2)translate(40px,12px)" translate-id="topbar-1">Main Menu</a>
+            <a class="navbar-brand" href="checkpoint0.html" style="transform:scale(1.2,1.2)translate(40px,12px)" translate-id="topbar-1">Checkpoint(s)</a>
 </div>
 
-<!-- Buttons-->
 <center>
-  <body>
-    <div1 class ="row">
-      <div class="container p-5 my-5 boarder-xxl">
-      </div>
+  <div1 style="color: white"; class ="row">
+    <div class="container p-5 my-5 boarder-xxl"></div>
+    <h2 style="text-align: center;"> About This Project</h2>
+      <br>
+      <br>
+      <p style="font-size: 12px; width: 500px; position: relative; left:263px; top: -45px;">
+        Credits
 
-      <div2>
-          <p><i>Note: These Are Choice Splits
-        <h2>Available Checkpoints</h2>
-        <p><button class="button button1" onclick="window.location.href = '../page_4.html';">Checkpoint 1</button></p>
-        <p><button class="button button1" onclick="window.location.href = '../page_7.html';">Checkpoint 2</button></p>
-        <p><button class="button button1" onclick="window.location.href = '../page_33.html';">Checkpoint 3</button></p>
+        <br>
+        <br>
+        
+        Background images belong to HyperGryph and Yostar
 
-      </div2>
-    </div1>
-  </body>
+      </p>
+    </div>
+  </div1>
 </center>
-</div>
-
-
-
 </html>
